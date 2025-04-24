@@ -34,17 +34,17 @@ Implemented in **`Data_preparation.ipynb`**, uses different models and databases
 
 ## 2. Analysis
 
-Implemented in **`Computation.py`**
+Implemented in **`Computation.py`**, defines functions to compute the information-theoretic and network-theoretic metrics for a given multivariate timeseries
 
 ### Function: `information_metrics`
 - **Input:**  
-  Multivariate time series (`pandas.DataFrame`)
+  Multivariate dataset (`pandas.DataFrame`)
 - **Output:**  
   - TSE, MI, TC, Ω, \<TC^{y_i}\>, S, R, U, I (plus means and standard deviations)
 
 ### Function: `network_metrics`
 - **Input:**  
-  Multivariate time series (`pandas.DataFrame`)
+  Multivariate dataset (`pandas.DataFrame`)
 - **Output:**  
   - Clustering coefficient  
   - Average path length  
@@ -60,7 +60,7 @@ Implemented in **`Computation.py`**
 
 ## 3. Visualization
 
-Implemented in a `.py` file (name TBD)
+Implemented in a `.py` file, defines functions to plot the dynamics of the computed metrics against the systems self-organising behaviour
 
 ### Function: `information_plots`
 - **Plots:**  
@@ -78,15 +78,5 @@ Implemented in a `.py` file (name TBD)
 
 ## 4. Implementation
 
-Implemented in an **`.ipynb`** file
-
-- Demonstrates the use of computation and visualization functions
-- Includes annotated explanations for each function call and use
+Implemented in an **`.ipynb`** file, demonstrates the use of computation and visualization functions and includes annotated explanations for each function call and use
 """
-
-# Save the content to a file
-file_path = "/mnt/data/README.md"
-with open(file_path, "w") as file:
-    file.write(readme_content)
-
-file_path
