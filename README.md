@@ -1,4 +1,4 @@
-# Create the README.md content
+# Overview of the structural organisation of the code
 readme_content = """# Coding Plan
 
 ## Overview
@@ -75,7 +75,7 @@ Implemented in a `.py` file (name TBD)
 ### Function: `network_plots`
 - **Plots:**  
   - Small-world (SW) plot  
-  - SWP  
+  - Small-world propensity (SWP)
   - ΔClustering vs ΔPath Length
 
 ---
