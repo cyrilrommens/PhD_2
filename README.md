@@ -1,8 +1,4 @@
 # Overview of the structural organisation of the code
-readme_content = """# Coding Plan
-
-## Overview
-
 This project involves simulating new, and utelising existing, multivariate time series data, analyzing them using information-theoretic and network-theoretic metrics, and visualizing the results. The code is organized into four primary components:
 
 1. **Data Preparation**
