@@ -1,0 +1,29 @@
+# I have Python 3.12.4 installed
+
+# Core packages for /01Notebooks_WholeBrain
+numpy>=1.22
+scipy>=1.9
+matplotlib
+networkx
+numba
+nilearn
+nibabel
+
+# Additional packages for /02Notebooks_HighOrder
+jax==0.4.28
+jaxlib==0.4.28
+jax-tqdm
+pandas
+scikit-learn
+tqdm
+hoi
+
+# Additional packages for /03Notebooks_HighOrder
+pingouin
+seaborn
+xgi
+thoi
+
+# Pinned version for CPU-compatible PyTorch
+torch==1.8.1+cpu
+-f https://download.pytorch.org/whl/torch_stable.html
